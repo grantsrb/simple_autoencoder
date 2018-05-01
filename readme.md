@@ -63,30 +63,30 @@ The final training accuracy was XXXXXXXXX% whereas the validation accuracy was X
 
 ----
 Reconstruction:
-(Image 1a)[./imgs/remakes2.png]
+![Image 1a](./imgs/remakes2.png)
 
 Original:
-[Image 1b](./imgs/reals2.png)
+![Image 1b](./imgs/reals2.png)
 
 ----
 Reconstruction:
-[Image 2a](./imgs/remakes4.png)
+![Image 2a](./imgs/remakes4.png)
 
 Original:
-[Image 2b](./imgs/reals4.png)
+![Image 2b](./imgs/reals4.png)
 
 ----
 Reconstruction:
-[Image 3a](./imgs/remakes7.png)
+![Image 3a](./imgs/remakes7.png)
 
 Original:
-[Image 3b](./imgs/reals7.png)
+![Image 3b](./imgs/reals7.png)
 
 ----
 Reconstruction:
-[Image 4a](./imgs/remakes12.png)
+![Image 4a](./imgs/remakes12.png)
 
 Original:
-[Image 4b](./imgs/reals12.png)
+![Image 4b](./imgs/reals12.png)
 
 ----
