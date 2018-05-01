@@ -69,9 +69,9 @@ class Encoder(nn.Module):
 
         ksize=3; padding=0; stride=1; in_depth = out_depth
         out_depth = obs_size[-3]
-        self.deconvs.append(self.deconv_block(in_depth, out_depth, ksize=ksize, padding=padding, stride=stride, bnorm=self.bnorm))
+        self.deconvs.append(self.deconv_block(in_depth, out_depth, ksize=ksize, padding=padding, stride=stride, bnorm=False))
 
-        self.rwd_flat = nn.Linear(emb_size, self.flat_size)
+        self.rwd_flat = nn.Sequential(nn.Linear(emb_size, self.flat_size),nn.ReLU(), nn.BatchNorm1d(1024))
         self.rwd_features = nn.Sequential(*self.deconvs)
 
         # Classifier
