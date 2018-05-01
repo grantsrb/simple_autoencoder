@@ -1,3 +1,4 @@
 *.p
 __pycache__/
-
+*.npy
+*.sh
