@@ -63,7 +63,7 @@ The final training accuracy was XXXXXXXXX% whereas the validation accuracy was X
 
 ----
 Reconstruction:
-[Image 1a](./imgs/remakes2.png)
+(Image 1a)[./imgs/remakes2.png]
 
 Original:
 [Image 1b](./imgs/reals2.png)
