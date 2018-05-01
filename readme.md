@@ -59,8 +59,9 @@ Ideally, the autoencoder can be trained to create a semantically rich z vector t
 The images used for this autoencoder were the Cifar-10 training dataset. The images were not preprocessed in any way before being fed to the autoencoder. 45000 were used as a training set, 5000 were kept as a validation set.
 
 ## Results
-The final training accuracy was XXXXXXXXX% whereas the validation accuracy was XXXXXXX%. Here are some examples of the reconstructed images.
+The final training and validation accuracies varied depending on the portion of loss contributed by the classification error. Classification accuracy was improved by adding a simple normalizing preprocessing step to the data. This, however, reduced the quality of the reconstructed images. 
 
+Here are some examples of the reconstructed images.
 ----
 Reconstruction:
 ![Image 1a](./imgs/remakes2.png)
