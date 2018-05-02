@@ -18,10 +18,10 @@ def preprocess(imgs, mean, std):
 def postprocess(remakes, mean, std):
     return remakes*(std+1e-7) + mean
 
-n_epochs = 800
+n_epochs = 500
 batch_size = 128
-lr = .0009
-pred_coef = .2 # Portion of loss from classification
+lr = .001
+pred_coef = .25 # Portion of loss from classification
 process = False
 resume = False
 
